@@ -1,11 +1,11 @@
 ---
 layout: post
-title: The third
-type: HTML5 Demo Site
-site_url: http://html5.brennaobrien.com
-permalink: /work/html5.html
-image: /images/first-post.png
+title: The Floating Lotus
+type: Small Business Website
+site_url: http://seecharlesco.de/floatinglotus
+permalink: /work/flotus.html
+image: /images/work/flotus.png
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a nibh ultrices, sagittis nibh vel, pulvinar nisi. Cras vel tellus tincidunt, consequat arcu a, sodales velit. Praesent tempor odio et mauris condimentum accumsan. Mauris placerat auctor sapien, semper dictum enim sodales ac. Aliquam vestibulum augue quis orci suscipit porta. Donec tempus orci eget libero placerat bibendum. Nam tristique lorem ut pharetra luctus. Curabitur aliquet dolor sapien, eget pellentesque sapien tincidunt in.
+The Floating Lotus, offering in-office massage services, needed an website designed with fast-moving business owners in mind. Originally hand-coded in HTML and CSS, it was later rebuilt using Twitter’s Bootstrap framework to improve its mobile layout and uses a jQuery plug-in for smooth scrolling. The content is still being developed by the client.

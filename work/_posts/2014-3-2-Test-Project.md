@@ -1,11 +1,12 @@
 ---
 layout: post
-title: The second
-type: HTML5 Demo Site
-site_url: http://html5.brennaobrien.com
-permalink: /work/html5.html
-image: /images/first-post.png
+title: Lazy Loading JSON
+type: Data Manipulation
+site_url: http://seecharlesco.de/jsonsample
+permalink: /work/json.html
+image: /images/work/json.png
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a nibh ultrices, sagittis nibh vel, pulvinar nisi. Cras vel tellus tincidunt, consequat arcu a, sodales velit. Praesent tempor odio et mauris condimentum accumsan. Mauris placerat auctor sapien, semper dictum enim sodales ac. Aliquam vestibulum augue quis orci suscipit porta. Donec tempus orci eget libero placerat bibendum. Nam tristique lorem ut pharetra luctus. Curabitur aliquet dolor sapien, eget pellentesque sapien tincidunt in.
+This is an example of manipulating JSON data from a feed on a page with dates in descending order. Since I didn't have a lot of experience with back-end languages, I decided to work with what I knew, and was able to pull it off with JavaScript and jQuery.
+

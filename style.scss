@@ -298,11 +298,19 @@ footer {
   &.right {
     margin-left: 4.5%;
   }
+  img {
+    border: 1px solid gray;
+  }
+  .read-more, .view-project {
+    padding-right: .5zem;
+  }
   
    @include mobile {
     display: block;
     width: 90%;
-  
+    .read-more, .view-project {
+      padding-right: .5em;
+    }
     }
 }
 
