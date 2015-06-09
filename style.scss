@@ -241,6 +241,30 @@ nav {
 // .main
 //
 
+.intro {
+  text-align: center;
+}
+
+.resume {
+  .exp {
+    display: inline-block;
+    width: 55%;
+  }
+  
+  .other {
+    display: inline-block;
+    float: right;
+    width: 40%;
+  }
+  
+  @include mobile {
+    .exp, .other {
+      width: 100%;
+      float: none;
+    }
+  }
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -286,8 +310,11 @@ footer {
 
 .work {
   display: inline-block;
+  top: 0;
   width: 45%;
   padding-bottom: 2.5em;
+  vertical-align: top;
+
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }

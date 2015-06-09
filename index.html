@@ -2,17 +2,10 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.categories.['blog'] %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1><span class="date">  {{ post.date | date: "%B %e, %Y" }}</span>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div class="intro">
+  <h1>Hi. I'm a Front-end Web Developer</br>that loves to learn new technologies</br>and build fantastic websites.</h1>
+  <h3>What can I build for you today?</h3>
+  
+  <p>Thank you for visiting my portfolio and blog. Feel free to look around.</p>
 </div>
+
