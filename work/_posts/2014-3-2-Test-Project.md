@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work-post
 title: Lazy Loading JSON
 type: Data Manipulation
 site_url: http://seecharlesco.de/jsonsample

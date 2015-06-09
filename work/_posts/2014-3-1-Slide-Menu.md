@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work-post
 title: CSS and jQuery Sliding Menu 
 type: Navigation Menu
 site_url: 
