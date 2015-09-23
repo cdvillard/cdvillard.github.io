@@ -307,7 +307,6 @@ footer {
   text-align: center;
 }
 
-
 .work {
   display: inline-block;
   top: 0;
@@ -341,6 +340,24 @@ footer {
     }
 }
 
+#contact-form {
+  text-align: center;
+  margin-top: 1em;
+  input, textarea {
+    width: 300px;
+    padding: 5px 0 5px 5px;
+    margin: 7px 0;
+  }
+  .thanks {
+    width: 450px;
+    margin: 10px auto;
+    display: none;
+    color: #b11a29;
+  }
+  & :target .thanks {
+    display: inherit;
+  }
+}
 
 
 
