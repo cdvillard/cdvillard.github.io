@@ -2,7 +2,7 @@
 layout: work-post
 title: Lazy Loading JSON
 type: Data Manipulation
-site_url: http://seecharlesco.de/jsonsample
+site_url: http://charlesvillard.co/jsonsample
 permalink: /work/json.html
 image: /images/work/json.png
 ---

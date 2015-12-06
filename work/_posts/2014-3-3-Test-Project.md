@@ -2,7 +2,7 @@
 layout: work-post
 title: The Floating Lotus
 type: Small Business Website
-site_url: http://seecharlesco.de/floatinglotus
+site_url: http://charlesvillard.co/floatinglotus
 permalink: /work/flotus.html
 image: /images/work/flotus.png
 ---
