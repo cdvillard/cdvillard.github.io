@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<header id="home-header" style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
+  <div class="container">
+    <h1><a class="nav-link" href="/">{{ site.title }}</a></h1>
+    <ul class="meta">
+      <li>
+        <span>
+          {{ site.tagline }}
+        </span>
+      </li>
+    </ul>
+    <nav>
+      <a class="nav-link" href="/about/">About</a>
+      <a class="nav-link" href="/work/">Work</a>
+      <a class="nav-link" href="/">Blog</a>
+    </nav>
+  </div>
+  <div class="contact-footer">
+    <h3>Stay in touch.</h3>
+    <ul class="contact-sm">
+      <li>
+        <a href="mailto:c.d.villard@gmail.com"><span class="fa fa-envelope fa-2x"></span></a>
+      </li>
+      <li>
+        <a href="https://www.github.com/cdvillard"><span class="fa fa-github fa-2x"></span></a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/cdvillard"><span class="fa fa-twitter fa-2x"></span></a>
+      </li>
+    </ul>
+  </div>
+</header>
+<article>
+  <div class="container">
+    {{ content }}
+  </div>
+</article>

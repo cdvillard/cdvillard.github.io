@@ -1,0 +1,9 @@
+# Site settings
+title: 'Charles Villard' # Your Title
+tagline: 'Web Developer and Consummate Student <br class="rwd-wrap" /> based in Miami, FL' # A brief tagline for your site
+sidebar_image: /images/cover1.jpg
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+baseurl:  # the subpath of your site, e.g. /blog/
