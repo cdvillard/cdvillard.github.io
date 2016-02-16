@@ -4,6 +4,6 @@ tagline: 'Web Developer and Consummate Student <br class="rwd-wrap" /> based in 
 sidebar_image: /images/cover1.jpg
 
 # Build settings
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 baseurl:  # the subpath of your site, e.g. /blog/
