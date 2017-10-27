@@ -171,7 +171,7 @@ header .container {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    padding: 0 50px;
+    padding: 0 50px; 
   }
 }
 
@@ -186,6 +186,10 @@ header .container {
   }
   header .container .inner-container {
     padding: 0 50px;
+  }
+
+  header nav {
+    display: none;
   }
 }
 
