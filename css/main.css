@@ -64,6 +64,11 @@ blockquote {
   color: #666;
 }
 
+hr {
+  width: 45%;
+  margin: 4vh auto;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
@@ -433,7 +438,15 @@ ul.posts p {
 }
 
 /*  Work Experience */
+.work {
+  margin-bottom: 50px;
+}
 
 .work-exp {
-  margin: 4vh auto;
+  font-size: .9em
+}
+
+.work-exp .project {
+  color: #1F497D; 
+  font-weight: bold;
 }
