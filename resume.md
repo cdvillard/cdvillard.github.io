@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /work/
+permalink: /
 ---
 
 <h2>About Charles</h2>

@@ -9,6 +9,7 @@
 html,
 body {
   height: 100%;
+  background-color: #F0F3F5;   
 }
 
 body {
@@ -17,10 +18,15 @@ body {
   font-size: 16px;
   line-height: 28px;
   color: #222;
-  background-color: #F0F3F5; 
   font-weight: 400;
   white-space: nowrap;
-  
+  max-width: 1028px;
+}
+
+@media screen and (min-width: 1029px) {
+  body {
+    margin: 0 auto;
+  }
 }
 
 /* Type */
@@ -93,7 +99,7 @@ article {
 
 header {
   position: relative;
-  width: 35%;
+  width: 50%;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -103,6 +109,13 @@ header {
   -webkit-filter: grayscale(1%);
   filter: grayscale(1%);
   overflow: hidden;
+}
+
+@media screen and (min-height: 1001px) {
+  header {
+    max-height: 1000px;
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -134,11 +147,7 @@ header .container {
 @media screen and (min-width: 961px){
   #home-header .container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 5%;
   }
 
   header .container {
@@ -164,6 +173,7 @@ header .container {
 @media screen and (max-width: 960px){
   #home-header .container {
     padding: 100px 50px;
+    width: 50%
   }
 
   header .container {
@@ -171,6 +181,12 @@ header .container {
   }
   header .container .inner-container {
     padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #home-header .container .meta{
+    display: none;
   }
 }
 
@@ -213,15 +229,13 @@ header ul.meta {
 
 header ul.meta li {
   display: inline-block;
-  margin-right: 25px;
-  line-height: 30px;
   color: #fff;
 }
 
 header ul.meta li span {
-  margin-right: 10px;
   font-style: italic;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .75);
+  font-size: 20px;
 }
 
 .rwd-wrap {
@@ -359,8 +373,7 @@ div.contact-footer ul li:hover a {
 /* Article */
 
 article {
-  width: 65%;
-  overflow-x: hidden;
+  width: 50%;
 }
 
 

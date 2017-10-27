@@ -3,6 +3,7 @@ layout: post
 title: Getting into open-source software
 date: 2015-06-10 12:00:00
 featured_image: /images/post-header/opensource.png
+published: false
 ---
 
 Easily one of the most popular pieces of advice for newer developers seems to be, "Get into open source development." And really, they're not wrong. Open source technology is easily one of largest parts, if not the largest part of modern software and web development today. A quick Google search, and I found this article from The Whir citing the [2015 Future of Open Source Survey](http://www.thewhir.com/web-hosting-news/companies-embrace-open-source-software-for-scalability-and-security), a study by investment firm North Bridge and open source software (OSS) management company Black Duck Software,. The general rub: over three-quarters of all companies surveyed use open source in their IT operations. 
