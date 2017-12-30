@@ -3,7 +3,7 @@ layout: post
 title: Hello, world!
 date: 2015-06-10 12:00:00
 featured_image: /images/post-header/hello-world.jpg
-published: false
+published: true
 ---
 
 Welcome, and if you're reading this, that means that I've successfully launched my new blog!

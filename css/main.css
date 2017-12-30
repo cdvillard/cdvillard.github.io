@@ -20,7 +20,7 @@ body {
   color: #222;
   font-weight: 400;
   white-space: nowrap;
-  max-width: 1028px;
+  max-width: 1400px;
 }
 
 @media screen and (min-width: 1029px) {
@@ -82,7 +82,7 @@ article {
   display: inline-block;
   vertical-align: top;
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
   white-space: normal;
 }
 
@@ -104,7 +104,7 @@ article {
 
 header {
   position: relative;
-  width: 50%;
+  width: 35%;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -178,7 +178,7 @@ header .container {
 @media screen and (max-width: 960px){
   #home-header .container {
     padding: 100px 50px;
-    width: 50%
+    width: 100%
   }
 
   header .container {
@@ -189,7 +189,7 @@ header .container {
   }
 
   header nav {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -242,9 +242,8 @@ header ul.meta li {
 }
 
 header ul.meta li span {
-  font-style: italic;
-  color: rgba(255, 255, 255, .75);
   font-size: 20px;
+  word-break: break-all;
 }
 
 .rwd-wrap {
@@ -382,7 +381,7 @@ div.contact-footer ul li:hover a {
 /* Article */
 
 article {
-  width: 50%;
+  width: 65%;
 }
 
 
@@ -429,6 +428,7 @@ article a:hover {
 ul.posts li {
   list-style-type: none;
   border-bottom: 1px solid #eeeeee;
+  margin: 0;
 }
 
 ul.posts .meta {
