@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /work/
+permalink: /resume/
 ---
 <section id="jobs" class="work">
   <h2>Experience:</h2>

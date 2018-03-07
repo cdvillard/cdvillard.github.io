@@ -454,3 +454,16 @@ ul.posts p {
   color: #1F497D; 
   font-weight: bold;
 }
+
+/*  Folio Items  */
+
+.preview a img {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  transition: box-shadow ease-out 1s;
+}
+
+.preview a:hover img {
+  box-shadow: 5px 5px 10px #bbb;
+}
