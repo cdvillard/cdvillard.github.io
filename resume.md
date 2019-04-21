@@ -1,15 +1,41 @@
 ---
 layout: page
 title: Resume
-permalink: /resume/
+permalink: /
 ---
+<section id="about" class="work">
+  <h2>About Charles</h2>
+  <p>I am a web developer based in southern Miami, Florida with a passion for front-end development, JavaScript, web standards, and great phở. I currently work on as a Technical Consultant for <a href="https://perficient.com">Perficient.</a></p>
+<section>
+
+
 <section id="jobs" class="work">
   <h2>Experience:</h2>
+
+  <h3>Technical Consultant</h3>
+  <p>
+    <em>Perficient, Miami, Florida (Remote)</em><br/>
+    <em>August 2018 to Present</em>
+  </p>
+
+  <p>I make it easier for content creators and marketers to work on large-scale campaigns by building libraries of reliable, attractive, and interactive Sitecore components for content creators using Vue.js, SCSS, .NET, C#, JavaScript, and other front-end libraries. In addition to creating flexible design systems based on clients’ design compositions, I work with backend developers and QA engineers to ensure accessibility in generated HTML.</p>
+
+  <div class="work-exp">
+    <h4 class="project">Component Library for a Major Healthcare System</h4>
+    <p>
+      A major website redesign and update for a large not-for-profit healthcare system in southwestern Florida. In addition to semantic markup and styles, I worked to ensure components met high accessibility standards.
+    </p>
+      <h4 class="project">Major Redesign for a Major Retail Chain</h4>
+    <p>
+      A full update for a major retail chain, I was embedded with several other developers and helped bring their design system and component library up-to-date using Sitecore as a headless CMS and Vue.js for compontent UI.
+    </p>
+  </div>
+  <hr/>
 
   <h3>Full-Stack Web Developer</h3>
   <p>
     <em>Tenet Partners, Miami, Florida (Remote)</em><br/>
-    <em>June 2016 to Present</em>
+    <em>June 2016 to August 2018</em>
   </p>
 
   <p>I help build tools that help organizations and companies maintain their brand identity across their outfit and across the world. My work has included projects for clients including Lincoln Financial Group, Vallen, State Farm, Xerox, and Genesse &amp; Wyoming.
@@ -29,6 +55,7 @@ permalink: /resume/
       Tenet Partners' proprietary digital asset management system, designed as an end-to-end brand management solution. I help to maintain and update functionality of the core system, as well as work to improve its development tools.
     </p>
   </div>
+
   <hr/>
   <h3>Web Developer</h3>
   <p>
@@ -53,37 +80,6 @@ permalink: /resume/
       A responsive Wordpress ecommerce site for a purveyor of moonshine-infused baked goods. I worked on all aspects of this website including building reusable styles,  creating product taxonomies, and integrating payment processing and shipping cost calculation.
     </p>
   </div>
-  <hr/>
-  <h3>Developer Specialist</h3>
-  <p>
-    <em>Mango Media, Miami, FL</em><br/>
-    <em>August to September 2015</em>
-  </p>
-  <ul>
-    <li>Helped improve digital publishing workflows using Markdown tools, CSS2, XHTML, and XML.</li>
-    <li>Analyzed cross-device compatibility and responsiveness issues</li>
-    <li>Built iBooks widgets and eBook features using JavaScript and the iAd JavaScript library</li>
-  </ul>
-  <hr/>
-  <h3>Temporary Website Assistant</h3>
-  <p>
-    <em>Florida International University, Miami, FL</em><br/>
-    <em>May to July 2012</em>
-  </p>
-  <ul>
-    <li>Developed first iteration of the Office of Engagement’s website in tandem with contract developers using WordPress</li>
-    <li>Monitored and moderated social media channels, promoting office initiatives</li>
-  </ul>
-  <hr/>
-  <h3>Creative Associate</h3>
-  <p>
-    <em>The Integrated Marketing Group, Miami, FL</em><br/>
-    <em>July 2008 to Aug. 2009</em>
-  </p>
-  <ul>
-    <li>Working alongside developers, designed UX elements for company website.</li>
-    <li>Developed responses to government solicitations for marketing services.</li>
-  </ul>
 </section>
 
 <section id="skills" class="work resume-tools">

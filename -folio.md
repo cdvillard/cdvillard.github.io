@@ -2,6 +2,7 @@
 layout: page
 title: Portfolio
 permalink: /folio/
+published: false
 ---
 <section id="work" class="work">
   <h2>Past Projects</h2>
@@ -18,7 +19,7 @@ permalink: /folio/
       </a>
     </p>
   </div>
-  
+
   <div class="project">
     <h3 class="name">Nareit Brand Center</h3>
     <p class="description">
@@ -30,7 +31,7 @@ permalink: /folio/
       </a>
     </p>
   </div>
-  
+
   <div class="project">
     <h3 class="name">Miami Data</h3>
     <p class="description">
@@ -42,7 +43,7 @@ permalink: /folio/
       </a>
     </p>
   </div>
-  
+
   <div class="project">
     <h3 class="name">"Charlie to Basecamp"</h3>
     <p class="description">

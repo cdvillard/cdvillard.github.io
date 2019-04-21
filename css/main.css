@@ -9,7 +9,7 @@
 html,
 body {
   height: 100%;
-  background-color: #F0F3F5;   
+  background-color: #F0F3F5;
 }
 
 body {
@@ -96,7 +96,7 @@ article {
     display: block;
   }
   .container {
-    padding: 25px;
+    padding-top: 25px;
   }
 }
 
@@ -114,6 +114,13 @@ header {
   -webkit-filter: grayscale(1%);
   filter: grayscale(1%);
   overflow: hidden;
+}
+
+header .avatar {
+  width: 100%;
+  max-width: 300px
+  max-height: 300px;
+  border-radius: 100%;
 }
 
 @media screen and (min-height: 1001px) {
@@ -171,7 +178,7 @@ header .container {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    padding: 0 50px; 
+    padding: 0 50px;
   }
 }
 
@@ -333,14 +340,14 @@ div.contact-footer ul li:hover a {
     right: 10px;
     bottom: 10px;
     left: 10px;
-  }  
+  }
 }
 
 @media screen and (max-width: 960px){
   .pagination {
     margin-top: 40px;
     padding: 0 10px;
-  }  
+  }
 }
 
 .pagination:after {
@@ -395,7 +402,7 @@ article .container {
     overflow: visible;
   }
   article .container {
-    padding: 25px !important;
+    padding-top: 25px !important;
   }
 }
 
@@ -451,7 +458,7 @@ ul.posts p {
 }
 
 .work-exp .project {
-  color: #1F497D; 
+  color: #1F497D;
   font-weight: bold;
 }
 
