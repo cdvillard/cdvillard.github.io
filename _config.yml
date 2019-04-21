@@ -1,6 +1,6 @@
 # Site settings
 title: 'Charles Villard' # Your Title
-tagline: 'Web Developer from Miami, FL' # A brief tagline for your site
+tagline: 'Web Developer <span style="display:inline-block">from Miami, FL</span>' # A brief tagline for your site
 sidebar_image: /images/cover1.jpg
 
 # Build settings
